@@ -1,0 +1,17 @@
+{
+  "name": "socket_io",
+  "version": "1.0.0",
+  "description": "Websocket is a solution when we need to triger some website from any diferent website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -L index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NOPERMAN",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
+  }
+}
